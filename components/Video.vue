@@ -2,13 +2,13 @@
     <div>
         <div class="hero">
             <div class="video" :class="{'hidden-video': showVideo}">
-                <div class="background flex center" id="stop" @click="showVideo = true">
-                    <iframe src="https://player.vimeo.com/video/505660704?color=c30068&portrait=0" width="80%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <div class="background flex middle" id="stop" @click="showVideo = true">
+                    <iframe src="https://player.vimeo.com/video/335670008" width="80%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="start-video flex middle" id='start' @click="showVideo = false">
                 <img class="play-button" src="https://ik.imagekit.io/alexborecky/Alena/play_9yMeDRmXn.svg" alt="">
-                <img src="https://ik.imagekit.io/alexborecky/Playground/origin-still-22_copy_vW3PUVebWZMf.png" alt="">
+                <img src="https://ik.imagekit.io/alexborecky/Alena/Screenshot_2020-11-03_at_18.42.08_E76KTtlV2.png" alt="">
             </div>
         </div>
     </div>
@@ -46,6 +46,9 @@
         transform: scale(1.2);
         transition: 2s ease-in-out;
     }
+    .background {
+        display: none;
+    }
 }
 
 .start-video {
@@ -75,6 +78,7 @@
     height: 100vh;
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 1000;
     transition: .4s ease-in-out;
     iframe {

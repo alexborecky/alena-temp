@@ -4,14 +4,14 @@
             <nuxt-link to="/" class="logo flex center"> 
                 <img src="https://ik.imagekit.io/alexborecky/Alena/alena-logo_1gBOu51TIDz9.svg" alt="">
             </nuxt-link>
-            <div class="links flex">
+            <!-- <div class="links flex">
                 <ul class="flex center">
                     <li><nuxt-link class="flex center-column-top first-link" to="/">Showreel<span class="underline"></span></nuxt-link></li>
                     <li><nuxt-link class="flex center-column-top" to="/genres">Films<span class="underline"></span></nuxt-link></li>
                     <li><nuxt-link class="flex center-column-top" to="/about">About<span class="underline"></span></nuxt-link></li>
                     <li><nuxt-link class="flex center-column-top" to="/contact">Contact<span class="underline"></span></nuxt-link></li>
                 </ul>
-            </div>
+            </div> -->
             <sideBar/>
         </div>
     </div>
