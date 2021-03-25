@@ -41,13 +41,13 @@
     opacity: 0;
     z-index: -100;
     position: fixed;
-    transition: .4s ease-in-out;
+    transition: .2s ease-in-out;
     iframe {
         transform: scale(1.2);
         transition: 2s ease-in-out;
     }
     .background {
-        display: none;
+        visibility: hidden;
     }
 }
 
