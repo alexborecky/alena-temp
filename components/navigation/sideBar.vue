@@ -19,7 +19,7 @@
                 </div>
               <div class="mobile-links flex center-column-top">
                   <nuxt-link to="/" class="logo"> 
-                        <img @click="isActive = !isActive" src="https://ik.imagekit.io/alexborecky/Nelisa/logo_NA_1_GTzx5BHzlKvn.svg" alt="shoptetak.cz logo">
+                        <img @click="isActive = !isActive" src="https://ik.imagekit.io/alexborecky/Alena/alena-logo_1gBOu51TIDz9.svg" alt="shoptetak.cz logo">
                     </nuxt-link>
                   <ul>
                       <li @click="isActive = !isActive"><nuxt-link to="/">Showreel</nuxt-link></li>
@@ -119,7 +119,7 @@ export default {
   width: 100%;
   .logo {
       img {
-          height: 40px;
+          max-width: 280px;
           @media only screen and (max-width: 560px) {
             height: 24px;
           }
