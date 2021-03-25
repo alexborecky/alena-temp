@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Nelisa Alcalde - Cinematographer',
+    title: 'Alena Doláková - Actress',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,6 +13,15 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://player.vimeo.com/api/player.js",
+      },
     ]
   },
   /*
@@ -54,6 +63,9 @@ export default {
   ** Build configuration
   */
   build: {
+    vendor: [
+      'vue-vimeo-player'
+    ],
     /*
     ** You can extend webpack config here
     */

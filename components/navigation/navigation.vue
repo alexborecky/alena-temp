@@ -2,7 +2,7 @@
     <div class="navigation navbar" :class="{ 'hidden-navbar': !showNavbar, scrolled: !scrolledNav}">
         <div class="container flex">
             <nuxt-link to="/" class="logo flex center"> 
-                <img src="https://ik.imagekit.io/alexborecky/Nelisa/logo_NA_1_GTzx5BHzlKvn.svg" alt="">
+                <img src="https://ik.imagekit.io/alexborecky/Alena/alena-logo_1gBOu51TIDz9.svg" alt="">
             </nuxt-link>
             <div class="links flex">
                 <ul class="flex center">

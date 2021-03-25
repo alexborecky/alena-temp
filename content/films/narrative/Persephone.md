@@ -3,7 +3,30 @@ title: 'Persephone'
 order: '1'
 thumbnail: 'https://ik.imagekit.io/alexborecky/Nelisa/Persephone/PERSEPHONE.00_01_37_19.Still004_-hniBodbPYW3U.jpg'
 hover: 'https://ik.imagekit.io/alexborecky/Nelisa/Persephone/gif-min_gUOCMM3RSu6vz.gif'
-description: 'foo foo foo'
+description: 'The film follows a story of a young girl experiencing her first menstruation, while at the same time preparing for taking the sacrament of Holy Communion. Her vivid mischievous imagination takes her into a new, wild world of femininity and freedom. Shot in 35 mm, the film is a unique blend of fiction, experimentalist narrative and magic realism. It received Best Student Cinematography (New York cinematographers award), Best Student Film, Moscow Shorts.'
+link: 'https://player.vimeo.com/video/472336387'
+
+roles: [
+    {
+        role: 'Directed by',
+        name: 'Alcalde Dolakova',
+    },
+]
+
+equipment: [
+    {
+        equip: '35mm'
+    },
+    {
+        equip: 'Shot on Kodak 500T/5219'
+    },
+    {
+        equip: 'Camera: Panavision Millennium 3 perf'
+    },
+    {
+        equip: 'Lenses:  Primo Prime'
+    },
+]
 
 images: [
     #1

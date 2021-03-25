@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.11.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-vimeo-player": "^0.2.2"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
