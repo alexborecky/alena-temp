@@ -43,7 +43,7 @@ html {
 }
 
 .center {
-    align-items: center;
+    justify-content: center;
 }
 
 .middle {
@@ -53,6 +53,10 @@ html {
 
 .full-width {
     width: 100%;
+}
+
+.column {
+    flex-flow: column;
 }
 
 .center-column {
@@ -76,7 +80,7 @@ html {
     align-items: flex-end;
 }
 
-.half {
+.half-width {
     width: 50%;
     @media only screen and (max-width: 740px) {
         width: 100%;
@@ -170,36 +174,34 @@ button {
 
 a {
     position: relative;
+    transition: .2s ease-in;
     .underline {
-        height: 4px;
+        height: 100%;
         width: 0%;
         background-color: white;
-        transition: .3s ease-in;
+        transition: .2s ease-in;
         position: absolute;
-        bottom: -4px;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
     &:hover {
+        z-index: 100;
         .underline {
             width: 100%;
         }
     }
 }
 
-
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    grid-gap: 40px;
-    @media only screen and (max-width: 450px) {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
-}
-
-.still-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    grid-gap: 40px;
-    @media only screen and (max-width: 450px) {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+.page-section {
+    margin: 15vh 0;
+    min-height: 20vh;
+    @media only screen and (max-width: 940px) {
+        .title {
+            width: 40%;
+        }
+        .content {
+            width: 60%;
+        }
     }
 }

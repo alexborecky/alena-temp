@@ -12,7 +12,8 @@ export default {
       { hid: 'description', name: 'description', content: 'Showreel and portfolio showing work of cinematogrpaher Nelisa Alcalde' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {href: 'https://fonts.googleapis.com/css2?family=Cinzel&display=swap', rel: 'stylesheet'},
     ],
     script: [
       {

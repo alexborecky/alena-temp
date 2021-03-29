@@ -1,5 +1,5 @@
 <template>
-    <div class="navigation navbar" :class="{ 'hidden-navbar': !showNavbar, scrolled: !scrolledNav}">
+    <div class="navigation navbar flex" :class="{ 'hidden-navbar': !showNavbar, scrolled: !scrolledNav,  'colour': !transparent}">
         <div class="container flex">
             <nuxt-link to="/" class="logo flex center"> 
                 <img src="https://ik.imagekit.io/alexborecky/Alena/alena-logo_1gBOu51TIDz9.svg" alt="">
@@ -24,6 +24,7 @@ export default {
     name: 'navigation',
     data () {
     return {
+      transparent: false,
       showNavbar: true,
       scrolledNav: true,
       lastScrollPosition: 0,
@@ -54,6 +55,7 @@ export default {
       }
       this.showNavbar = window.pageYOffset < this.lastScrollPosition
       this.scrolledNav = window.pageYOffset < this.lastScrollPosition
+      this.transparent = window.pageYOffset > 200
       this.lastScrollPosition = window.pageYOffset
     }
   }
@@ -67,6 +69,7 @@ export default {
 
 .navigation {
     height: 56px;
+    background-color: black;
     margin-top: 40px;
     position: sticky;
     top: 0;
@@ -88,6 +91,7 @@ export default {
         height: 100%;
         .logo {
           height: 100%;
+          align-items: center;
             img {
                 max-height: 24px;
             }
@@ -135,6 +139,10 @@ export default {
 .navigation.hidden-navbar {
   box-shadow: none;
   transform: translate3d(0, -120%, 0);
+}
+
+.colour {
+    background-color: transparent;
 }
 
 </style>
