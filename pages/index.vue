@@ -14,6 +14,12 @@
             <h5>Bio</h5>
             <h2>Alena Doláková</h2>
             <p>Alena Doláková je česká herečka s mezinárodní zkušeností. V listopadu 2020 debutovala knihou <a href="https://www.albatrosmedia.cz/tituly/63735820/anna-z-hollywoodu/?fbclid=IwAR2WU7x-pabNMLHF3-8R76mEsHEmBXGvAeA3lmYYOtZ3_2BETrf_Qa8mJFk" target="%blank"> <div class="underline"></div> Anna z Hollywoodu</a> (Albatros Media), věnuje se také stand upu a píše fejetony (Glanc, Elle). Letos se představí v hlavní roli ve filmu Zrcadla ve tmě.</p>
+            <div class="links flex">
+              <ul>
+                <li><a class="flex middle" target="_blank" href="https://www.imdb.com/name/nm5794772/"><div class="underline"></div> IMDB <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></li>
+                <li><a class="flex middle" target="_blank" href="https://www.csfd.cz/tvurce/110239-alena-dolakova/"> <div class="underline"></div> CSFD <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="projects hero flex page-section">
@@ -80,15 +86,30 @@ export default {
           color: black;
         }
       }
+      .links {
+        position: relative;
+        a {
+          font-family: 'Poppins';
+          position: relative;
+          svg {
+            height: 16px;
+          }
+          &:hover {
+            svg {
+              stroke: black;
+            }
+          }
+        }
+      }
     }
     .image {
       order: 1;
       img {
         max-width: 100%;
         width: 80%;
+        height: 100%;
         @media (max-width: 720px) {
           width: 100%;
-          height: 100%;
         }
       }
     }
