@@ -147,7 +147,7 @@ export default {
 
 @media only screen and (max-width: 960px) {
     .burger-nav {
-        display: block;
+        display: none;
     }
 }
 

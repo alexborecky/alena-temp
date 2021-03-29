@@ -10,7 +10,7 @@
           <div class="image half-width flex">
             <img src="https://ik.imagekit.io/alexborecky/Alena/DSC06084_waIaR4GfHk.jpg" alt="">
           </div>
-          <div class="content flex column half-width">
+          <div class="title content flex column half-width">
             <h5>Bio</h5>
             <h2>Alena Doláková</h2>
             <p>Alena Doláková je česká herečka s mezinárodní zkušeností. V listopadu 2020 debutovala knihou <a href="https://www.albatrosmedia.cz/tituly/63735820/anna-z-hollywoodu/?fbclid=IwAR2WU7x-pabNMLHF3-8R76mEsHEmBXGvAeA3lmYYOtZ3_2BETrf_Qa8mJFk" target="%blank"> <div class="underline"></div> Anna z Hollywoodu</a> (Albatros Media), věnuje se také stand upu a píše fejetony (Glanc, Elle). Letos se představí v hlavní roli ve filmu Zrcadla ve tmě.</p>
@@ -65,7 +65,9 @@ export default {
     margin-top: 40px;
   }
   .about {
+    flex-flow: row;
     .content {
+      order: 2;
       height: 100%;
       p {
         margin: 16px 0;
@@ -80,18 +82,37 @@ export default {
       }
     }
     .image {
+      order: 1;
       img {
         max-width: 100%;
         width: 80%;
+        @media (max-width: 720px) {
+          width: 100%;
+        }
       }
     }
+    @media (max-width: 720px) {
+        flex-flow: column;
+        .title {
+          order: 1;
+        }
+        .image {
+          order: 2;
+        }
+      }
   }
   .projects {
     min-height: 20vh;
     ul {
       li {
-        align-items: flex-end;
         margin-bottom: 40px;
+        @media (max-width: 720px) {
+          margin-bottom: 24px;
+          flex-flow: column;
+          p {
+            margin-left: 0px !important;
+          }
+        }
         p {
           margin-bottom: 4px;
           margin-left: 16px;
@@ -110,6 +131,9 @@ export default {
           @media (max-width: 940px) {
             font-size: 24px;
           }
+          @media (max-width: 330px) {
+            font-size: 20px;
+          }
           .underline {
             height: 100%;
           }
@@ -124,6 +148,9 @@ export default {
     .contact-info {
       li {
         margin-bottom: 40px;
+        @media (max-width: 720px) {
+          margin-bottom: 16px;
+        }
       }
     }
   }
