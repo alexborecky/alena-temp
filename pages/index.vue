@@ -98,6 +98,7 @@ export default {
         }
         .image {
           order: 2;
+          max-height: 100%;
         }
       }
   }
