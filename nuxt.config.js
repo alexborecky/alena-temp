@@ -9,7 +9,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Showreel and portfolio showing work of cinematogrpaher Nelisa Alcalde' }
+      { hid: 'description', name: 'description', content: 'Showreel and portfolio showing work of actress Alena Doláková' },
+      { property: 'og:type', content: 'home page'},
+      { property: 'og:url', content: 'https://alenadolakova.cz'},
+      { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/Screenshot_2020-11-03_at_18.42.08_E76KTtlV2.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
