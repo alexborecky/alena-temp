@@ -88,6 +88,7 @@ export default {
         width: 80%;
         @media (max-width: 720px) {
           width: 100%;
+          height: 100%;
         }
       }
     }
@@ -98,7 +99,6 @@ export default {
         }
         .image {
           order: 2;
-          max-height: 100%;
         }
       }
   }
