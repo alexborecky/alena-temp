@@ -33,7 +33,7 @@
             <ul>
               <li class="flex"><a href="https://www.albatrosmedia.cz/tituly/63735820/anna-z-hollywoodu/?fbclid=IwAR2WU7x-pabNMLHF3-8R76mEsHEmBXGvAeA3lmYYOtZ3_2BETrf_Qa8mJFk" target="_blank"> <div class="underline"></div> Anna z Hollywoodu</a><p>kniha</p></li>
               <li class="flex"><a href="https://www.simonholy.com/index.php/zrcadla-ve-tme/?fbclid=IwAR0gv0-rYXVDsVIlbAbkTzpXO-ltZVTds0NEflPqE6mcq1LG1J2of52kb58" target="_blank"><div class="underline"></div>Zrcadla ve tmě</a><p>film</p></li>
-              <li class="flex"><a href="https://chcitopodcast.cz" target="_blank"><div class="underline"></div>Chci To podcast</a><p>podcast</p></li>
+              <li class="flex"><a href="https://chcitopodcast.cz" target="_blank"><div class="underline"></div>Chci To</a><p>podcast</p></li>
             </ul>
           </div>
         </div>

@@ -78,6 +78,7 @@ export default {
     @media only screen and (max-width: 560px) {
       margin-top: 24px;
       .container {
+        align-items: center;
         .logo {
           img {
             height: 16px;
@@ -86,7 +87,7 @@ export default {
       }
     }
     .container {
-        justify-content: space-between;
+        justify-content: center;
         display: flex;
         height: 100%;
         .logo {
