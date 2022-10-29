@@ -2,7 +2,7 @@
     <div class="navigation navbar flex" :class="{ 'hidden-navbar': !showNavbar, scrolled: !scrolledNav,  'colour': !transparent}">
         <div class="container flex">
             <nuxt-link to="/" class="logo flex center"> 
-                <img src="https://ik.imagekit.io/alexborecky/Alena/alena-logo_1gBOu51TIDz9.svg" alt="">
+                <img src="https://ik.imagekit.io/alexborecky/Alena/alena-logo_1gBOu51TIDz9.svg" alt="Alena Doláková herečka">
             </nuxt-link>
             <!-- <div class="links flex">
                 <ul class="flex center">

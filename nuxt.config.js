@@ -5,14 +5,14 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Alena Doláková - Actress',
+    title: 'Alena Doláková | Actress',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Showreel and portfolio showing work of actress Alena Doláková' },
       { property: 'og:url', content: 'https://alenadolakova.cz'},
       { property: 'og:description', content: 'Showreel and portfolio showing work of actress Alena Doláková'},
-      { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/Screenshot_2020-11-03_at_18.42.08_E76KTtlV2.png' },
+      { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/vA0JC14j_hqyD6opfs.jpeg' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

@@ -3,12 +3,12 @@
         <div class="hero">
             <div class="video" :class="{'hidden-video': showVideo}">
                 <div class="background flex middle" id="stop" @click="showVideo = true">
-                    <iframe src="https://player.vimeo.com/video/335670008" width="80%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/531282359" width="80%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="start-video flex middle" id='start' @click="showVideo = false">
-                <img class="play-button" src="https://ik.imagekit.io/alexborecky/Alena/play_9yMeDRmXn.svg" alt="">
-                <img src="https://ik.imagekit.io/alexborecky/Alena/Screenshot_2020-11-03_at_18.42.08_E76KTtlV2.png" alt="">
+                <img class="play-button" src="https://ik.imagekit.io/alexborecky/Alena/play_9yMeDRmXn.svg" alt="Alena Doláková herečka">
+                <img src="https://ik.imagekit.io/alexborecky/Alena/vA0JC14j_hqyD6opfs.jpeg" alt="Alena Doláková herečka">
             </div>
         </div>
     </div>

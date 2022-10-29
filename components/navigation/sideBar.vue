@@ -19,14 +19,14 @@
                 </div>
               <div class="mobile-links flex center-column-top">
                   <nuxt-link to="/" class="logo"> 
-                        <img @click="isActive = !isActive" src="https://ik.imagekit.io/alexborecky/Alena/alena-logo_1gBOu51TIDz9.svg" alt="shoptetak.cz logo">
+                        <img @click="isActive = !isActive" src="https://ik.imagekit.io/alexborecky/Alena/alena-logo_1gBOu51TIDz9.svg" alt="Alena Doláková herečka">
                     </nuxt-link>
-                  <ul>
+                  <!-- <ul>
                       <li @click="isActive = !isActive"><nuxt-link to="/">Showreel</nuxt-link></li>
                       <li @click="isActive = !isActive"><nuxt-link to="/films">Films</nuxt-link></li>
                       <li @click="isActive = !isActive"><nuxt-link to="/about">About</nuxt-link></li>
                       <li @click="isActive = !isActive"><nuxt-link to="/contact">Contact</nuxt-link></li>
-                  </ul>
+                  </ul> -->
               </div>
             </div>
         </div> 

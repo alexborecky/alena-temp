@@ -8,12 +8,13 @@
       <div class="container">
         <div class="about hero middle page-section flex">
           <div class="image half-width flex">
-            <img src="https://ik.imagekit.io/alexborecky/Alena/DSC06084_waIaR4GfHk.jpg" alt="">
+            <img src="https://ik.imagekit.io/alexborecky/Alena/unnamed-min_74ucwK-zg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667075486994" alt="Alena Doláková herečka">
           </div>
           <div class="title content flex column half-width">
             <h5>Bio</h5>
-            <h2>Alena Doláková</h2>
-            <p>Alena Doláková je česká herečka s mezinárodní zkušeností. V listopadu 2020 debutovala knihou <a href="https://www.albatrosmedia.cz/tituly/63735820/anna-z-hollywoodu/?fbclid=IwAR2WU7x-pabNMLHF3-8R76mEsHEmBXGvAeA3lmYYOtZ3_2BETrf_Qa8mJFk" target="%blank"> <div class="underline"></div> Anna z Hollywoodu</a> (Albatros Media), věnuje se také stand upu a píše fejetony (Glanc, Elle). Letos se představí v hlavní roli ve filmu Zrcadla ve tmě.</p>
+            <h1>Alena Doláková</h1>
+            <p>The star of <a href="https://www.simonholy.com/index.php/zrcadla-ve-tme/?fbclid=IwAR0gv0-rYXVDsVIlbAbkTzpXO-ltZVTds0NEflPqE6mcq1LG1J2of52kb58" target="%blank"> <div class="underline"></div> Mirrors in The Dark</a> which premiered at KVIFF also appeared in six US series (playing an American, a Brit, a Bulgarian etc.) and other thirty Czech projects. Alena is also a published author (<a href="https://www.albatrosmedia.cz/tituly/63735820/anna-z-hollywoodu/?fbclid=IwAR2WU7x-pabNMLHF3-8R76mEsHEmBXGvAeA3lmYYOtZ3_2BETrf_Qa8mJFk" target="%blank"> <div class="underline"></div> Anna Of Hollywood,</a> Albatros Media), owner of <a href="https://annaent.com/" target="%blank"> <div class="underline"></div> ANNA Entertainment</a> and activist.
+              Alena Doláková je česká herečka s mezinárodní zkušeností. V listopadu 2020 debutovala knihou  (Albatros Media), věnuje se také stand upu a píše fejetony (Glanc, Elle). Letos se představí v hlavní roli ve filmu Zrcadla ve tmě.</p>
             <div class="links flex">
               <ul>
                 <li><a class="flex middle" target="_blank" href="https://www.imdb.com/name/nm5794772/"><div class="underline"></div> IMDB <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></li>
@@ -32,8 +33,10 @@
           <div class="content flex column half-width">
             <ul>
               <li class="flex"><a href="https://www.albatrosmedia.cz/tituly/63735820/anna-z-hollywoodu/?fbclid=IwAR2WU7x-pabNMLHF3-8R76mEsHEmBXGvAeA3lmYYOtZ3_2BETrf_Qa8mJFk" target="_blank"> <div class="underline"></div> Anna z Hollywoodu</a><p>kniha</p></li>
+              <li class="flex"><a href="https://annaent.com/" target="_blank"> <div class="underline"></div> Anna Entertainment</a><p>kniha</p></li>
               <li class="flex"><a href="https://www.simonholy.com/index.php/zrcadla-ve-tme/?fbclid=IwAR0gv0-rYXVDsVIlbAbkTzpXO-ltZVTds0NEflPqE6mcq1LG1J2of52kb58" target="_blank"><div class="underline"></div>Zrcadla ve tmě</a><p>film</p></li>
-              <li class="flex"><a href="https://chcitopodcast.cz" target="_blank"><div class="underline"></div>Chci To</a><p>podcast</p></li>
+              <!-- <li class="flex"><a href="https://chcitopodcast.cz" target="_blank"><div class="underline"></div>Chci To</a><p>podcast</p></li> -->
+              <li class="flex"><a href="https://421686.myshoptet.com/" target="_blank"> <div class="underline"></div>Shop</a><p>merch</p></li>
             </ul>
           </div>
         </div>
@@ -45,10 +48,13 @@
             </div>
           </div>
           <div class="contact-info half-width">
-            <ul>
-              <li class="flex column"><h5>Agent</h5>Michaela Povolná (More than stars) <a href="tel:+420724295476 ">+420 724 295 476 </a> </li>
-              <li class="flex column"><h5>Instagram</h5> <a href="https://instagram.com/alena.dolakova" target="_blank">@alena.dolakova</a> </li>
-              <li class="flex column"><h5>email</h5> <a href="mailto:alena@annaent.com" target="_blank">alena@annaent.com</a> </li>
+            <ul class="full-width">
+              <li class=""><h5>Agent Prague</h5>Michaela Povolná (More than stars)<br>
+                <a href="tel:+420724295476 ">+420 724 295 476 </a> </li>
+                <li class=""><h5>Agent London</h5>International Artists Management <br> <a href="">helen@internationalartistsmanagement.co.uk</a> </li>
+                <li class=""><h5>Agent Los Angeles</h5>Blain & Associates <br> <a href="">franblain@gmail.com</a> </li>
+                <li class=""><h5>Instagram</h5> <a href="https://instagram.com/alena.dolakova" target="_blank">@alena.dolakova</a> </li>
+              <li class=""><h5>email</h5> <a href="mailto:alena@annaent.com" target="_blank">alena@annaent.com</a> </li>
             </ul>
           </div>
         </div>
@@ -85,6 +91,26 @@ export default {
         &:hover {
           color: black;
         }
+      }
+      h1 {
+        font-family: 'Cinzel';
+        text-align: left;
+        font-size: 40px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        @media (max-width: 1440px) {
+            font-size: 32px;
+          }
+          @media (max-width: 1340px) {
+            font-size: 28px;
+          }
+          @media (max-width: 940px) {
+            font-size: 24px;
+          }
+          @media (max-width: 330px) {
+            font-size: 20px;
+          }
       }
       .links {
         position: relative;
